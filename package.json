@@ -1,0 +1,34 @@
+{
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "version": "0.0.0",
+  "name": "nodejs-workers",
+  "description": "A simple NodeJS app using workers",
+  "author": "Bruno Duarte Brito <brunodb3@gmail.com>",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunodb3/nodejs-workers.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cluster",
+    "workers"
+  ],
+  "dependencies": {
+    "js-md5": "^0.7.3",
+    "nodemon": "^1.14.11",
+    "threads": "^0.10.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
